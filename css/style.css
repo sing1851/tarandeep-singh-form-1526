@@ -1,0 +1,89 @@
+body{font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+     font-size: 1rem;}
+
+legend{background-color: white;
+    padding:1rem;
+    border-style: solid;
+    border-color: #DDD;
+    font-size:2rem;}
+
+
+fieldset{background-color: #F5F5F5;
+    border-style:solid ;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border-color:#DDD;}
+
+        #name{border-color: #DDD;
+        border-style:solid;
+        border-radius: 0.20rem;
+        margin-top: 0.70rem;
+        margin-bottom: 1.2rem;
+        height: 2rem;
+        width: 99.3%; }
+
+        #email{border-color:#DDD;
+        border-style:solid;
+        margin-top: 0.70rem;
+        margin-bottom: 1.2rem;
+        border-radius: 0.20rem;
+        height: 2rem;
+        width: 99.3%;}
+
+        #message{border-color: #DDD;
+        border-style:solid;
+        border-radius: 0.20rem;
+        margin-top: 0.60rem;
+        margin-bottom: 2rem;
+        border-width: 0.13rem;
+        height: 3rem; 
+        width: 99.3%; }
+
+
+#submit_button{background-color: #6495ED;
+        border-style: none;
+        color: white;
+        border-radius: 0.20rem;
+        padding: 0.75rem;
+        width: 101%}    
+
+
+
+
+        @media only screen and (min-width: 50rem) {
+          
+               #submit_button{width:7rem;}
+
+                #form{width: 65rem;
+                    margin: auto;
+                    align-items: center;}
+                
+
+                .container{display:flex;
+                           flex-direction:row;
+                           justify-content:space-between;}
+                .full_name{width:26rem;}
+                .email_add{width:26rem;}
+                
+            }
+            
+/*             
+            @media only screen and (min-width: 40rem) {
+          
+                #submit_button{width:7rem;}
+
+                #form{width: 65rem;
+                    margin: auto;
+                    align-items: center;}
+                
+
+                .container{display:flex;
+                           flex-direction:row;
+                           justify-content:space-between;}
+                .full_name{width:20rem;}
+                .email_add{width:20rem;}
+                
+            } */
+
+      
+
